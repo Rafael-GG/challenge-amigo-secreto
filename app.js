@@ -19,7 +19,20 @@ function agregarAmigo() {
     }else{
         nombreDeAmigos.push(document.getElementById("amigo").value);
         document.getElementById("amigo").value = "";
-        console.log(nombreDeAmigos);
+        actualizarListaDeAmigos();
+        
     }
 }
 
+function actualizarListaDeAmigos() {
+
+    document.getElementById("listaAmigos").innerHTML = ""; // Obtener el elemento de la lista y limpiarla para evitar duplicados
+
+    //Iterar sobre el arreglo: Usa un bucle for para recorrer el arreglo amigos y crear elementos de lista (<li>) para cada título.
+    //Agregar elementos a la lista: Para cada amigo, crear un nuevo elemento de lista.
+    for(let i = 0; i < nombreDeAmigos.length; i++) {
+        let amigo = document.createElement("li");
+        amigo.textContent = nombreDeAmigos[i];
+        document.getElementById("listaAmigos").appendChild(amigo);
+    }
+}
