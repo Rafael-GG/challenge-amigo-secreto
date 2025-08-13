@@ -1,6 +1,6 @@
 <h1> Challenge Amigo Secreto</h1>
 
-- Estado del Proyecto: En construcción
+- Estado del Desafio: Finalizado
 
 En este desafío, se desarrollara una aplicación que permita a los usuarios ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
 
@@ -16,3 +16,11 @@ un botón "Sortear Amigo" seleccionará uno de los nombres de forma aleatoria, m
 - Visualizar la lista: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
 
 - Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
+
+<h2>Tecnologias Utilizadas</h2>
+
+Para desarrollar este desafío se utilizo una estructura en HTML y CSS ya preparados. De esta manera, nos enfocamos exclusivamente en construir la lógica del código JavaScript, aplicando conceptos clave como funciones, arrays, condicionales y variables.
+
+<h2>Autor</h2>
+
+- Rafael-GG
